@@ -1,0 +1,41 @@
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+[data-icon]:before {
+    content: none
+}
+
+.ui-dialog {
+    position: fixed;
+    top: 100px;
+}
+
+.recentcomments a {
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.rm {
+    border: 50px solid transparent;
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.vc_custom_1491206972625 {
+    background-color: #ffffff !important;
+}
+
+.wpb_animate_when_almost_visible {
+    opacity: 1;
+}
