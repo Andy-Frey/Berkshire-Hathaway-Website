@@ -24,10 +24,38 @@ $(() => {
 
 // Smooth scroll after clicking navbar items
 
-$("#scrollButton").click(function () {
+$("#logo").click(function () {
+    $('html,body').animate({
+        scrollTop: $("#home").offset().top},'slow');
+});
+
+$("#navHome").click(function () {
+    $('html,body').animate({
+        scrollTop: $("#home").offset().top},'slow');
+});
+
+$("#navNews").click(function () {
     $('html,body').animate({
         scrollTop: $("#news").offset().top},'slow');
 });
+
+$("#navShareholder").click(function () {
+    $('html,body').animate({
+        scrollTop: $("#shareholder").offset().top},'slow');
+});
+
+$("#navBerkshire").click(function () {
+    $('html,body').animate({
+        scrollTop: $("#berkshire").offset().top},'slow');
+});
+
+$("#navWarren").click(function () {
+    $('html,body').animate({
+        scrollTop: $("#warren").offset().top},'slow');
+});
+
+
+
 
 // General notation --> will need to be adjusted to a for loop
 $("#menuItem").click(function () {

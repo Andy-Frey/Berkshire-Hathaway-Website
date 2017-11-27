@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   letter-spacing: 2px;
   color: #1E1E1E;
-  margin-top: 0; 
+  margin-top: 0;
   padding: 10px;
 }
 
@@ -174,7 +174,7 @@ textarea:focus {
   -ms-transition: height 0.3s cubic-bezier(0, 0, 0.7, 1);
   transition: height 0.3s cubic-bezier(0, 0, 0.7, 1);
   height: 100px;
-  padding: 0 30px;
+  padding: 20px 30px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -575,7 +575,7 @@ input.btn {
   letter-spacing: 5px;
 }
 
-.section.about { 
+.section.about {
   width: 100%;
   padding: 65px 0 100px;
   margin: 0;
@@ -1346,4 +1346,3 @@ input.btn {
     padding: 0;
   }
 }
-

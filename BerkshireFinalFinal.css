@@ -1,3 +1,79 @@
+#berkshire-brand{
+  height: auto;
+  width: 400px;
+  margin: 0px;
+}
+
+#navbar{
+  width: 100%;
+  position: fixed;
+  background-color: rgba(237,237,237,0.85)!important;
+  z-index: 1;
+}
+
+#logo{
+  height: 10%;
+  width: 90%;
+  min-width: 225px;
+}
+
+#navbarText{
+  justify-content: right;
+  height: 100px;
+}
+
+.navbar-nav{
+  min-width: 400px;
+  margin: 0px;
+}
+
+.nav-item{
+  padding-top, padding-bottom: 0px;
+  margin-left, margin-right: 10px;
+}
+
+.dropdown{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top, padding-bottom: 0px;
+}
+
+.dropdown-toggle{
+  color: #545454;
+}
+
+.buttonContent{
+  font-style: normal;
+  color: #545454;
+  margin: 0;
+}
+
+.fadeIn{
+  opacity: 0;
+}
+
+.dropdown-menu{
+  background-color: rgba(237,237,237,0.85);
+}
+
+#mainNav{
+  padding: 11px;
+  border: 0;
+  background-color: rgba(168,168,168,0.85);
+  cursor: pointer;
+}
+
+#bar1, #bar2, #bar3 {
+  width: 20px;
+  height: 3px;
+  background-color: #f2f2f2;
+  margin: 3px 0;
+}
+
+.fadeIn{
+  opacity: 0;
+}
+
 img.wp-smiley,
 img.emoji {
     display: inline !important;
